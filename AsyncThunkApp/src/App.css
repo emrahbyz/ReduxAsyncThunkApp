@@ -1,0 +1,13 @@
+.slick-track {
+  position: relative;
+}
+
+.slick-prev::before {
+  color: black;
+}
+
+.slick-next::before {
+  color: black;
+
+  position: absolute;
+}

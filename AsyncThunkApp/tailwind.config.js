@@ -5,8 +5,11 @@ export default {
     extend: {
       colors: {
         "my-red": "#E5081A",
+        footer: "#191919",
+      },
+      backgroundImage: {
         "background-image":
-          "linear-gradient(to right bottom,rgba(0,0,0,.9),rgba(0,0,0,.9),rgba(0,0,0,.6),rgba(0,0,0,.5),transparent)",
+          "https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg",
       },
     },
   },

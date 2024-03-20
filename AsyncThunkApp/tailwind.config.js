@@ -6,6 +6,7 @@ export default {
       colors: {
         "my-red": "#E5081A",
         footer: "#191919",
+        "my-text": "#f0faff",
       },
       backgroundImage: {
         "background-image":

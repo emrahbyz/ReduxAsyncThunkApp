@@ -24,7 +24,7 @@ const Home = () => {
                 src="https://images.hdqwalls.com/download/dune-part-two-movie-wd-1920x1080.jpg"
                 alt=""
               />
-              <div class="absolute inset-0 bg-black opacity-10"></div>
+              <div className="absolute inset-0 bg-black opacity-10"></div>
             </h3>
             <div className="absolute z-10 mr-[350px] mt-24  flex flex-col gap-8">
               <div>

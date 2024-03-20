@@ -2,7 +2,7 @@ import React from "react";
 import { IoIosSearch } from "react-icons/io";
 import { IoIosNotifications } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
-import Home from "./Home";
+
 const Navbar = () => {
   return (
     <nav className="bg-black via-black opacity-90 from-black   p-1 absolute w-[100%]  z-40 shadow-lg">

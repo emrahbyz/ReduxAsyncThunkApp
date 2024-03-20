@@ -3,6 +3,6 @@ import thunkSlice from "./thunkSlice";
 
 export const store = configureStore({
   reducer: {
-    thunk: thunkSlice,
+    films: thunkSlice,
   },
 });

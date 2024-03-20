@@ -1,14 +1,16 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+
 const initialState = {
   data: [],
   loading: false,
   error: "",
 };
+
 export const fetchTodos = createAsyncThunk("fetchTodos", async () => {
-  const response = await axios.get(
-    "https://jsonplaceholder.typicode.com/todos"
-  );
+  const response = await axios.get("http://localhost:3000/films");
+  console.log(response.data);
+  console.log(response.data[1].title);
   return response.data;
 });
 
@@ -27,6 +29,7 @@ const thunkSlice = createSlice({
     });
     builder.addCase(fetchTodos.rejected, (state, action) => {
       state.loading = false;
+      state.error = "test";
     });
   },
 });

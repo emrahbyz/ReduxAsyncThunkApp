@@ -14,22 +14,22 @@ const Home = () => {
     slidesToScroll: 1,
   };
   return (
-    <div className="slider-container h-[95vh] relative   w-[100%] ">
+    <div className="slider-container h-[95vh] relative    w-[100%] ">
       <div className="">
         <Slider {...settings}>
           <div className="!flex items-center justify-center ">
-            <h3 className="h-[95vh] w-[100%]">
+            <h3 className="h-[95vh] w-[100%]  ">
               <img
-                className="h-[95vh] w-[100%] "
+                className="  h-[95vh] w-[100%]  "
                 src="https://images.hdqwalls.com/download/dune-part-two-movie-wd-1920x1080.jpg"
                 alt=""
               />
               <div className="absolute inset-0 bg-black opacity-10"></div>
             </h3>
-            <div className="absolute z-10 mr-[350px] mt-24  flex flex-col gap-8">
+            <div className="absolute z-10 mr-[350px] sm:ml-[800px]  sm:gap-1 max-2xl:ml-[550px] max-xl:ml-[550px] max-sm:ml-[650px] max-sm:gap-1 max-2xl:gap-4 mt-24  flex flex-col gap-8">
               <div>
                 <h1 className="text-white">
-                  <p className=" text-8xl text-transparent font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
+                  <p className=" text-8xl text-transparent max-sm:text-2xl  max-2xl:text-6xl font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
                     DUNE: PART TWO
                   </p>
                 </h1>
@@ -68,11 +68,13 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="absolute z-30  ml-[900px] flex items-center gap-8 cursor-pointer ">
+            <div className="absolute z-30  ml-[900px] max-2xl:ml-[750px] flex items-center gap-8 cursor-pointer ">
               <Link to="/single-page">
-                <PiPlayCircleThin className="text-white text-9xl  hover:text-red-600" />
+                <PiPlayCircleThin className="text-white text-9xl  max-2xl:text-8xl  hover:text-red-600" />
               </Link>
-              <p className="text-4xl text-white font-thin  ">WATCH TRAILER</p>
+              <p className="text-4xl text-white font-thin max-2xl:text-2xl   ">
+                WATCH TRAILER
+              </p>
             </div>
           </div>
           <div>
@@ -85,10 +87,10 @@ const Home = () => {
                 />
                 <div className="absolute inset-0 bg-black opacity-10"></div>
               </h3>
-              <div className="absolute z-10 mr-[350px] mt-24  flex flex-col gap-8">
+              <div className="absolute z-10 mr-[350px] sm:ml-[900px]  sm:gap-1 max-2xl:ml-[550px] max-xl:ml-[550px] max-sm:ml-[650px] max-sm:gap-1 max-2xl:gap-4 mt-24  flex flex-col gap-8">
                 <div>
                   <h1 className="text-white">
-                    <p className=" text-8xl text-transparent font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
+                    <p className="text-8xl text-transparent max-sm:text-2xl  max-2xl:text-6xl font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
                       DUNE: PART TWO
                     </p>
                   </h1>
@@ -129,11 +131,13 @@ const Home = () => {
                   </button>
                 </div>
               </div>
-              <div className="absolute z-30  ml-[900px] flex items-center gap-8 cursor-pointer ">
+              <div className="absolute z-30  ml-[900px] max-2xl:ml-[750px] flex items-center gap-8 cursor-pointer ">
                 <Link to="/single-page">
-                  <PiPlayCircleThin className="text-white text-9xl  hover:text-red-600" />
+                  <PiPlayCircleThin className="text-white text-9xl max-2xl:text-8xl hover:text-red-600" />
                 </Link>
-                <p className="text-4xl text-white font-thin  ">WATCH TRAILER</p>
+                <p className="text-4xl text-white font-thin max-2xl:text-2xl   ">
+                  WATCH TRAILER
+                </p>
               </div>
             </div>
           </div>
@@ -147,10 +151,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-black opacity-10"></div>
             </h3>
 
-            <div className="absolute z-10 mr-[350px] mt-24  flex flex-col gap-8">
+            <div className="absolute z-10 mr-[350px] sm:ml-[900px]  sm:gap-1 max-2xl:ml-[550px] max-xl:ml-[550px] max-sm:ml-[650px] max-sm:gap-1 max-2xl:gap-4 mt-24  flex flex-col gap-8">
               <div>
                 <h1 className="text-white">
-                  <p className=" text-8xl text-transparent font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
+                  <p className="text-8xl text-transparent max-sm:text-2xl  max-2xl:text-6xl font-bold bg-clip-text bg-[url('https://creative-sorbet-96d1b6.netlify.app/static/media/texure.5fd81b0ea718d21dec89.jpg')]">
                     DUNE: PART TWO
                   </p>
                 </h1>
@@ -190,11 +194,13 @@ const Home = () => {
                 </button>
               </div>
             </div>
-            <div className="absolute z-30  ml-[900px] flex items-center gap-8 cursor-pointer ">
+            <div className="absolute z-30  ml-[900px] max-2xl:ml-[750px] flex items-center gap-8 cursor-pointer ">
               <Link to="/single-page">
-                <PiPlayCircleThin className="text-white text-9xl  hover:text-red-600" />
+                <PiPlayCircleThin className="text-white text-9xl  max-2xl:text-8xl hover:text-red-600" />
               </Link>
-              <p className="text-4xl text-white font-thin  ">WATCH TRAILER</p>
+              <p className="text-4xl text-white font-thin  max-2xl:text-2xl ">
+                WATCH TRAILER
+              </p>
             </div>
           </div>
         </Slider>
